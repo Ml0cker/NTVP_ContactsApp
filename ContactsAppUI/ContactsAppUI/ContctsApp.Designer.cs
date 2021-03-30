@@ -1,7 +1,7 @@
 ﻿
 namespace ContactsAppUI
 {
-    partial class Form1
+    partial class ContctsApp
     {
         /// <summary>
         ///  Required designer variable.
