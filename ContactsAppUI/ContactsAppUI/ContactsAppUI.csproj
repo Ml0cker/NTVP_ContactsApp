@@ -6,4 +6,8 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\NTVP_ContactsApp\NTVP_ContactsApp.csproj" />
+  </ItemGroup>
+
 </Project>
