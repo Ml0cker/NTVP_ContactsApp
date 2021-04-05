@@ -15,7 +15,8 @@ namespace ContactsAppUI
     {
         public ContctsApp()
         {
-            InitializeComponent();
+            InitializeComponent(); 
+            var project = new Project();
         }
 
         private void ContctsApp_Load(object sender, EventArgs e)

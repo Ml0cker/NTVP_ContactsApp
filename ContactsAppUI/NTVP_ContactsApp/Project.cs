@@ -2,7 +2,7 @@
 
 namespace NTVP_ContactsApp
 {
-    public class Class1
+    public class Project
     {
     }
 }
