@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NTVP_ContactsApp\NTVP_ContactsApp.csproj" />
+    <ProjectReference Include="..\NTVP_ContactsApp\ContactsAppBLL.csproj" />
   </ItemGroup>
 
 </Project>

@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using NTVP_ContactsApp;
+using ContactsAppBLL;
 
 namespace ContactsAppUI
 {
@@ -16,7 +16,7 @@ namespace ContactsAppUI
         public ContctsApp()
         {
             InitializeComponent(); 
-            var project = new Project();
+            var project = new PhoneNumber();
         }
 
         private void ContctsApp_Load(object sender, EventArgs e)
