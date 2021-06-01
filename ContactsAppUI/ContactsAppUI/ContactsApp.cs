@@ -40,7 +40,7 @@ namespace ContactsAppUI
         /// </summary>
         private void AddContactForm()
         {
-            ContactForm contactForm = new ContactForm()
+            ContactForm contactForm = new ContactForm();
             contactForm.Contact = new Contact();
             contactForm.ShowDialog();
             if (contactForm.DialogResult == DialogResult.OK)
