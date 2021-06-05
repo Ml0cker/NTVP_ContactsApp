@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.IO;
 using ContactsAppBLL;
 using System.Reflection;
@@ -40,7 +36,7 @@ namespace ContactsApp.UnitTests
             //Setup
             var sourceProject = PrepareProject();
             var testDataFolder = testPath();
-            var actualFileName = testDataFolder + @"\data2.json";
+            var actualFileName = testDataFolder + @"\data.json";
             var expectedFileName = testDataFolder + @"\data.json";
 
             if (File.Exists(actualFileName))

@@ -31,7 +31,7 @@
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="md $(SolutionDir)InstallScripts&#xD;&#xA;xcopy $(ProjectDir)$(OutDir)*.dll $(SolutionDir)InstallScripts\" />
+    <Exec Command="md $(SolutionDir)InstallScripts&#xD;&#xA;xcopy $(ProjectDir)$(OutDir)*.dll $(SolutionDir)InstallScripts\&#xD;&#xA;xcopy $(ProjectDir)$(OutDir)*.exe  $(SolutionDir)InstallScripts\" />
   </Target>
 
 </Project>

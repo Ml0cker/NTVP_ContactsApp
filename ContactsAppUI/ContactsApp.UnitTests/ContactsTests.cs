@@ -12,7 +12,7 @@ namespace ContactsApp.UnitTests
         {
             // setup
             var contact = new Contact();
-            var sourceName = "James";
+            var sourceName = "Mlocker";
             var expectedName = sourceName;
 
             // Act
@@ -28,9 +28,9 @@ namespace ContactsApp.UnitTests
         {
             // setup
             var contact = new Contact();
-            var sourceName = "jaMeS";
+            var sourceName = "mlocker";
 
-            // Assertû
+            // Assert
             NUnit.Framework.Assert.Throws<ArgumentException>(
                 () =>
                 {
@@ -62,7 +62,7 @@ namespace ContactsApp.UnitTests
         {
             // setup
             var contact = new Contact();
-            var sourceSurname = "Johnson";
+            var sourceSurname = "Mlocker";
             var expectedSurname = sourceSurname;
 
             // Act
@@ -78,7 +78,7 @@ namespace ContactsApp.UnitTests
         {
             // setup
             var contact = new Contact();
-            var sourceSurname = "jaMeS";
+            var sourceSurname = "mlocker";
 
             // Assert
             NUnit.Framework.Assert.Throws<ArgumentException>(
@@ -112,7 +112,7 @@ namespace ContactsApp.UnitTests
         {
             // setup
             var contact = new Contact();
-            var sourceEMail = "Linkoln@gmail.com";
+            var sourceEMail = "Mlocker@gmail.com";
             var expectedEMail = sourceEMail;
 
             // Act
@@ -147,7 +147,7 @@ namespace ContactsApp.UnitTests
             // setup
             var contact = new Contact();
             contact.PhoneNumber = new PhoneNumber();
-            var sourcePhoneNumber = "jaMeS";
+            var sourcePhoneNumber = "Mlo";
 
             // Assert
             NUnit.Framework.Assert.Throws<ArgumentException>(
@@ -160,7 +160,7 @@ namespace ContactsApp.UnitTests
         }
 
 
-        [TestCase("79131111600")]
+        [TestCase("79964157005")]
         public void PhoneNumber_GoodNumber_ReturnsSamePhoneNumber(string value)
         {
             // setup
@@ -194,8 +194,8 @@ namespace ContactsApp.UnitTests
         }
 
 
-        [TestCase("89131111600")]
-        [TestCase("JoJoReference")]
+        [TestCase("89231114600")]
+        [TestCase("qwerty")]
         public void PhoneNumber_UnCorrectNumber_ThrowException(string value)
         {
             // setup
@@ -217,7 +217,7 @@ namespace ContactsApp.UnitTests
         {
             // setup
             var contact = new Contact();
-            var sourcePhoneNumber = "791311116005465";
+            var sourcePhoneNumber = "7913111454605465";
 
             // Assert
             NUnit.Framework.Assert.Throws<ArgumentException>(
@@ -251,7 +251,7 @@ namespace ContactsApp.UnitTests
         {
             // setup
             var contact = new Contact();
-            var sourceIdVK = "MashmashiGalochka";
+            var sourceIdVK = "Test";
             var expectedIdVK = sourceIdVK;
 
             // Act
