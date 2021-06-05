@@ -55,6 +55,8 @@ namespace ContactsAppUI
             // dateTimeBirthDate
             // 
             this.dateTimeBirthDate.Location = new System.Drawing.Point(145, 97);
+            this.dateTimeBirthDate.MaxDate = new System.DateTime(2100, 12, 31, 0, 0, 0, 0);
+            this.dateTimeBirthDate.MinDate = new System.DateTime(1920, 1, 1, 0, 0, 0, 0);
             this.dateTimeBirthDate.Name = "dateTimeBirthDate";
             this.dateTimeBirthDate.Size = new System.Drawing.Size(156, 27);
             this.dateTimeBirthDate.TabIndex = 25;
