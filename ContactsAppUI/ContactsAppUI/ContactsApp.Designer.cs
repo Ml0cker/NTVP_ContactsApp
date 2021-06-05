@@ -240,7 +240,6 @@ namespace ContactsAppUI
         private System.Windows.Forms.Button buttonChangeContact;
         private System.Windows.Forms.Button buttonDeleteContact;
         private System.Windows.Forms.MenuStrip menuMain;
-        private ControlContact ContactMainControl;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuFile;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuEdit;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuHelp;
