@@ -72,9 +72,9 @@ namespace ContactsAppUI
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(21, 125);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(53, 20);
+            this.label4.Size = new System.Drawing.Size(147, 20);
             this.label4.TabIndex = 3;
-            this.label4.Text = "Email: ";
+            this.label4.Text = "e-mail for feadback: ";
             // 
             // linkLabel1
             // 
@@ -103,18 +103,18 @@ namespace ContactsAppUI
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(21, 156);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(63, 20);
+            this.label5.Size = new System.Drawing.Size(67, 20);
             this.label5.TabIndex = 5;
-            this.label5.Text = "GitHub: ";
+            this.label5.Text = "Git Hub: ";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(21, 261);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(184, 20);
+            this.label6.Size = new System.Drawing.Size(172, 20);
             this.label6.TabIndex = 7;
-            this.label6.Text = "2021 Андреянов Алексей";
+            this.label6.Text = "2021 Andreyanov Alexey";
             // 
             // AboutForm
             // 
@@ -131,7 +131,7 @@ namespace ContactsAppUI
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "AboutForm";
-            this.Text = "Информация";
+            this.Text = "About";
             this.ResumeLayout(false);
             this.PerformLayout();
 

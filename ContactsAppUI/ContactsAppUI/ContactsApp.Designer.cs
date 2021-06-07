@@ -51,6 +51,8 @@ namespace ContactsAppUI
             // 
             // listBoxContact
             // 
+            this.listBoxContact.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.listBoxContact.FormattingEnabled = true;
             this.listBoxContact.ItemHeight = 20;
             this.listBoxContact.Location = new System.Drawing.Point(12, 98);
@@ -64,9 +66,9 @@ namespace ContactsAppUI
             this.labelSearch.AutoSize = true;
             this.labelSearch.Location = new System.Drawing.Point(12, 46);
             this.labelSearch.Name = "labelSearch";
-            this.labelSearch.Size = new System.Drawing.Size(55, 20);
+            this.labelSearch.Size = new System.Drawing.Size(56, 20);
             this.labelSearch.TabIndex = 19;
-            this.labelSearch.Text = "Поиск:";
+            this.labelSearch.Text = "Search:";
             // 
             // textBoxSearch
             // 
@@ -78,6 +80,7 @@ namespace ContactsAppUI
             // 
             // buttonCreateNewContact
             // 
+            this.buttonCreateNewContact.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.buttonCreateNewContact.BackColor = System.Drawing.SystemColors.ControlDark;
             this.buttonCreateNewContact.BackgroundImage = global::ContactsAppUI.Properties.Resources.Add_8x_16x;
             this.buttonCreateNewContact.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -92,6 +95,7 @@ namespace ContactsAppUI
             // 
             // buttonChangeContact
             // 
+            this.buttonChangeContact.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.buttonChangeContact.BackColor = System.Drawing.SystemColors.ControlDark;
             this.buttonChangeContact.BackgroundImage = global::ContactsAppUI.Properties.Resources.Edit_grey_16x;
             this.buttonChangeContact.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -106,6 +110,7 @@ namespace ContactsAppUI
             // 
             // buttonDeleteContact
             // 
+            this.buttonDeleteContact.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.buttonDeleteContact.BackColor = System.Drawing.SystemColors.ControlDark;
             this.buttonDeleteContact.BackgroundImage = global::ContactsAppUI.Properties.Resources.Remove_color_16x;
             this.buttonDeleteContact.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -128,7 +133,7 @@ namespace ContactsAppUI
             this.toolStripMenuHelp});
             this.menuMain.Location = new System.Drawing.Point(0, 0);
             this.menuMain.Name = "menuMain";
-            this.menuMain.Size = new System.Drawing.Size(647, 28);
+            this.menuMain.Size = new System.Drawing.Size(668, 28);
             this.menuMain.TabIndex = 1;
             this.menuMain.Text = "Меню";
             // 
@@ -137,15 +142,15 @@ namespace ContactsAppUI
             this.toolStripMenuFile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuFileExit});
             this.toolStripMenuFile.Name = "toolStripMenuFile";
-            this.toolStripMenuFile.Size = new System.Drawing.Size(59, 24);
-            this.toolStripMenuFile.Text = "Файл";
+            this.toolStripMenuFile.Size = new System.Drawing.Size(46, 24);
+            this.toolStripMenuFile.Text = "File";
             // 
             // toolStripMenuFileExit
             // 
             this.toolStripMenuFileExit.Name = "toolStripMenuFileExit";
             this.toolStripMenuFileExit.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
-            this.toolStripMenuFileExit.Size = new System.Drawing.Size(189, 26);
-            this.toolStripMenuFileExit.Text = "Выйти";
+            this.toolStripMenuFileExit.Size = new System.Drawing.Size(169, 26);
+            this.toolStripMenuFileExit.Text = "Exit";
             this.toolStripMenuFileExit.Click += new System.EventHandler(this.toolStripMenuFileExit_Click);
             // 
             // toolStripMenuEdit
@@ -155,28 +160,28 @@ namespace ContactsAppUI
             this.toolStripMenuEditChange,
             this.toolStripMenuEditDeleteContact});
             this.toolStripMenuEdit.Name = "toolStripMenuEdit";
-            this.toolStripMenuEdit.Size = new System.Drawing.Size(92, 24);
-            this.toolStripMenuEdit.Text = "Изменить";
+            this.toolStripMenuEdit.Size = new System.Drawing.Size(49, 24);
+            this.toolStripMenuEdit.Text = "Edit";
             // 
             // toolStripMenuEditAddContact
             // 
             this.toolStripMenuEditAddContact.Name = "toolStripMenuEditAddContact";
-            this.toolStripMenuEditAddContact.Size = new System.Drawing.Size(217, 26);
-            this.toolStripMenuEditAddContact.Text = "Добавить контакт";
+            this.toolStripMenuEditAddContact.Size = new System.Drawing.Size(191, 26);
+            this.toolStripMenuEditAddContact.Text = "Add Contact";
             this.toolStripMenuEditAddContact.Click += new System.EventHandler(this.toolStripMenuEditAddContact_Click);
             // 
             // toolStripMenuEditChange
             // 
             this.toolStripMenuEditChange.Name = "toolStripMenuEditChange";
-            this.toolStripMenuEditChange.Size = new System.Drawing.Size(217, 26);
-            this.toolStripMenuEditChange.Text = "Изменить контакт";
+            this.toolStripMenuEditChange.Size = new System.Drawing.Size(191, 26);
+            this.toolStripMenuEditChange.Text = "Edit Contact";
             this.toolStripMenuEditChange.Click += new System.EventHandler(this.toolStripMenuEditChange_Click);
             // 
             // toolStripMenuEditDeleteContact
             // 
             this.toolStripMenuEditDeleteContact.Name = "toolStripMenuEditDeleteContact";
-            this.toolStripMenuEditDeleteContact.Size = new System.Drawing.Size(217, 26);
-            this.toolStripMenuEditDeleteContact.Text = "Удалить контакт";
+            this.toolStripMenuEditDeleteContact.Size = new System.Drawing.Size(191, 26);
+            this.toolStripMenuEditDeleteContact.Text = "Delete Contact";
             this.toolStripMenuEditDeleteContact.Click += new System.EventHandler(this.toolStripMenuEditDeleteContact_Click);
             // 
             // toolStripMenuHelp
@@ -184,24 +189,26 @@ namespace ContactsAppUI
             this.toolStripMenuHelp.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuHelpAbout});
             this.toolStripMenuHelp.Name = "toolStripMenuHelp";
-            this.toolStripMenuHelp.Size = new System.Drawing.Size(83, 24);
-            this.toolStripMenuHelp.Text = "Помощь";
+            this.toolStripMenuHelp.Size = new System.Drawing.Size(55, 24);
+            this.toolStripMenuHelp.Text = "Help";
             // 
             // toolStripMenuHelpAbout
             // 
             this.toolStripMenuHelpAbout.Name = "toolStripMenuHelpAbout";
             this.toolStripMenuHelpAbout.ShortcutKeys = System.Windows.Forms.Keys.F1;
-            this.toolStripMenuHelpAbout.Size = new System.Drawing.Size(209, 26);
-            this.toolStripMenuHelpAbout.Text = "Информация";
+            this.toolStripMenuHelpAbout.Size = new System.Drawing.Size(142, 26);
+            this.toolStripMenuHelpAbout.Text = "Info";
             this.toolStripMenuHelpAbout.Click += new System.EventHandler(this.toolStripMenuHelpAbout_Click);
             // 
             // controlContactMain
             // 
+            this.controlContactMain.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.controlContactMain.Contact = null;
             this.controlContactMain.Enabled = false;
             this.controlContactMain.Location = new System.Drawing.Point(332, 31);
             this.controlContactMain.Name = "controlContactMain";
-            this.controlContactMain.Size = new System.Drawing.Size(309, 259);
+            this.controlContactMain.Size = new System.Drawing.Size(330, 259);
             this.controlContactMain.TabIndex = 19;
             // 
             // MainForm
@@ -209,7 +216,7 @@ namespace ContactsAppUI
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.ClientSize = new System.Drawing.Size(647, 321);
+            this.ClientSize = new System.Drawing.Size(668, 321);
             this.Controls.Add(this.menuMain);
             this.Controls.Add(this.controlContactMain);
             this.Controls.Add(this.buttonDeleteContact);
@@ -222,8 +229,9 @@ namespace ContactsAppUI
             this.MainMenuStrip = this.menuMain;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "MainForm";
-            this.Text = "Контакты";
+            this.Text = "ContactsApp";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.menuMain.ResumeLayout(false);
             this.menuMain.PerformLayout();
             this.ResumeLayout(false);

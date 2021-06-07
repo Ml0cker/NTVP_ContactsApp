@@ -53,5 +53,15 @@ namespace ContactsAppUI
             controlContactAdd.Contact = new Contact();
             controlContactAdd.Contact = Contact;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void controlContactAdd_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

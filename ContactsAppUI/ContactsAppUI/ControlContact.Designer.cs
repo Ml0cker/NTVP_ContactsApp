@@ -46,15 +46,17 @@ namespace ContactsAppUI
             // labelBirthDate
             // 
             this.labelBirthDate.AutoSize = true;
-            this.labelBirthDate.Location = new System.Drawing.Point(20, 97);
+            this.labelBirthDate.Location = new System.Drawing.Point(20, 101);
             this.labelBirthDate.Name = "labelBirthDate";
-            this.labelBirthDate.Size = new System.Drawing.Size(119, 20);
+            this.labelBirthDate.Size = new System.Drawing.Size(67, 20);
             this.labelBirthDate.TabIndex = 26;
-            this.labelBirthDate.Text = "Дата рождения:";
+            this.labelBirthDate.Text = "Birthday:";
             // 
             // dateTimeBirthDate
             // 
-            this.dateTimeBirthDate.Location = new System.Drawing.Point(145, 97);
+            this.dateTimeBirthDate.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dateTimeBirthDate.Location = new System.Drawing.Point(145, 96);
             this.dateTimeBirthDate.MaxDate = new System.DateTime(2100, 12, 31, 0, 0, 0, 0);
             this.dateTimeBirthDate.MinDate = new System.DateTime(1920, 1, 1, 0, 0, 0, 0);
             this.dateTimeBirthDate.Name = "dateTimeBirthDate";
@@ -65,6 +67,8 @@ namespace ContactsAppUI
             // 
             // textBoxVkId
             // 
+            this.textBoxVkId.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxVkId.Location = new System.Drawing.Point(145, 222);
             this.textBoxVkId.Name = "textBoxVkId";
             this.textBoxVkId.Size = new System.Drawing.Size(156, 27);
@@ -76,13 +80,15 @@ namespace ContactsAppUI
             this.labelVkId.AutoSize = true;
             this.labelVkId.Location = new System.Drawing.Point(20, 225);
             this.labelVkId.Name = "labelVkId";
-            this.labelVkId.Size = new System.Drawing.Size(30, 20);
+            this.labelVkId.Size = new System.Drawing.Size(58, 20);
             this.labelVkId.TabIndex = 23;
-            this.labelVkId.Text = "VK:";
+            this.labelVkId.Text = "vk.com:";
             // 
             // textBoxEmail
             // 
-            this.textBoxEmail.Location = new System.Drawing.Point(145, 183);
+            this.textBoxEmail.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxEmail.Location = new System.Drawing.Point(145, 180);
             this.textBoxEmail.Name = "textBoxEmail";
             this.textBoxEmail.Size = new System.Drawing.Size(156, 27);
             this.textBoxEmail.TabIndex = 22;
@@ -91,15 +97,17 @@ namespace ContactsAppUI
             // labelEmail
             // 
             this.labelEmail.AutoSize = true;
-            this.labelEmail.Location = new System.Drawing.Point(20, 186);
+            this.labelEmail.Location = new System.Drawing.Point(20, 183);
             this.labelEmail.Name = "labelEmail";
-            this.labelEmail.Size = new System.Drawing.Size(49, 20);
+            this.labelEmail.Size = new System.Drawing.Size(55, 20);
             this.labelEmail.TabIndex = 21;
-            this.labelEmail.Text = "Email:";
+            this.labelEmail.Text = "E-mail:";
             // 
             // textBoxPhoneNumber
             // 
-            this.textBoxPhoneNumber.Location = new System.Drawing.Point(145, 140);
+            this.textBoxPhoneNumber.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxPhoneNumber.Location = new System.Drawing.Point(145, 138);
             this.textBoxPhoneNumber.Name = "textBoxPhoneNumber";
             this.textBoxPhoneNumber.Size = new System.Drawing.Size(156, 27);
             this.textBoxPhoneNumber.TabIndex = 20;
@@ -108,15 +116,17 @@ namespace ContactsAppUI
             // labelPhoneNumber
             // 
             this.labelPhoneNumber.AutoSize = true;
-            this.labelPhoneNumber.Location = new System.Drawing.Point(20, 143);
+            this.labelPhoneNumber.Location = new System.Drawing.Point(20, 141);
             this.labelPhoneNumber.Name = "labelPhoneNumber";
-            this.labelPhoneNumber.Size = new System.Drawing.Size(60, 20);
+            this.labelPhoneNumber.Size = new System.Drawing.Size(53, 20);
             this.labelPhoneNumber.TabIndex = 19;
-            this.labelPhoneNumber.Text = "Номер:";
+            this.labelPhoneNumber.Text = "Phone:";
             // 
             // textBoxName
             // 
-            this.textBoxName.Location = new System.Drawing.Point(145, 57);
+            this.textBoxName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxName.Location = new System.Drawing.Point(145, 54);
             this.textBoxName.Name = "textBoxName";
             this.textBoxName.Size = new System.Drawing.Size(156, 27);
             this.textBoxName.TabIndex = 18;
@@ -125,14 +135,16 @@ namespace ContactsAppUI
             // labelName
             // 
             this.labelName.AutoSize = true;
-            this.labelName.Location = new System.Drawing.Point(20, 60);
+            this.labelName.Location = new System.Drawing.Point(20, 57);
             this.labelName.Name = "labelName";
-            this.labelName.Size = new System.Drawing.Size(42, 20);
+            this.labelName.Size = new System.Drawing.Size(52, 20);
             this.labelName.TabIndex = 17;
-            this.labelName.Text = "Имя:";
+            this.labelName.Text = "Name:";
             // 
             // textBoxSurname
             // 
+            this.textBoxSurname.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxSurname.Location = new System.Drawing.Point(145, 12);
             this.textBoxSurname.Name = "textBoxSurname";
             this.textBoxSurname.Size = new System.Drawing.Size(156, 27);
@@ -144,9 +156,9 @@ namespace ContactsAppUI
             this.labelSurname.AutoSize = true;
             this.labelSurname.Location = new System.Drawing.Point(20, 15);
             this.labelSurname.Name = "labelSurname";
-            this.labelSurname.Size = new System.Drawing.Size(76, 20);
+            this.labelSurname.Size = new System.Drawing.Size(70, 20);
             this.labelSurname.TabIndex = 15;
-            this.labelSurname.Text = "Фамилия:";
+            this.labelSurname.Text = "Surname:";
             // 
             // ControlContact
             // 
